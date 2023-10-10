@@ -141,8 +141,8 @@ const makeChart = async () => {
         title: "Finnish population 2000-2021",
         data: chartData,
         type: "line",
-        height: 450,
-        color: "#eb5146"
+        colors: ["#eb5146"],
+        height: 450
     })
 }
 
